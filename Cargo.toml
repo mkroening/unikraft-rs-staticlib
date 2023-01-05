@@ -1,0 +1,19 @@
+[package]
+name = "unikraft"
+version = "0.0.0"
+authors = ["Martin Kröning <mkroening@posteo.net>"]
+edition = "2021"
+description = "Unikraft for Rust."
+repository = "https://github.com/unikraft/unikraft-rs"
+license = "BSD-3-Clause"
+keywords = ["unikraft", "unikernel"]
+categories = ["no-std"]
+links = "unikraft"
+
+[build-dependencies]
+anyhow = "1.0"
+
+[features]
+default = []
+kvm = []
+linuxu = []

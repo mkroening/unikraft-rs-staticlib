@@ -1,0 +1,12 @@
+specification: v0.5
+
+# We need https://github.com/unikraft/unikraft/commit/b6f0c55f5f2f2a649ed7657ede6f4cd313cf2474
+unikraft: staging
+
+targets:
+  - name: default
+    architecture: x86_64
+    platform: kvm
+  - name: linuxu
+    architecture: x86_64
+    platform: linuxu
