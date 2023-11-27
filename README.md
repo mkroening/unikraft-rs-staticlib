@@ -1,4 +1,8 @@
-# unikraft-rs
+# unikraft-rs (static library)
+
+> [!IMPORTANT]  
+> This approach is deprecated and will not work on current Unikraft versions.
+> See [`*-unikraft-linux-musl`—The rustc book](https://doc.rust-lang.org/rustc/platform-support/unikraft-linux-musl.html) for running Rust apps on current versions of Unikraft.
 
 This crate builds and links against [Unikraft].
 
